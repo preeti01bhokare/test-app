@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header css */
+
+.commonHeader {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #4a2c6a;
+    z-index: 9999;
+}
+.custom_navbar {
+    margin: 8px -30px;
+}
+.marginTop{
+    margin-top: 100px;
+}
+.logo-brand, .logo-brand:hover {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.custom-link, .custom-link:hover {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
+/* end header css */
+.form-wrapper{
+    background: rgb(255,255,255,0.8);
+    padding: 25px;
+}
+.form-wrapper input, .form-wrapper textarea {
+    width: 100%;
+    min-height: 45px;
+    border: 1px solid #E5E4E4;
+    padding: 0px 15px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    outline: 0px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.custom_labels{
+    margin-bottom: 6px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .submit-btn{
+    min-width: 200px;
+    height: 50px;
+    border: 0px;
+    outline: 0px !important;
+    color: #fff;
+    background: #E44AAF;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.submit-btn:hover {
+    color: #3f2c6b;
+}
+.commonbanner {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.validation-css{
+    margin-bottom: 15px;
+    margin-top: -20px;
+    font-size: 13px;
+    color: #dc3545;
+}
+.action-ui button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 8px;
+    outline: 0px !important;
+    height: 30px;
+    width: 30px;
+    line-height: 10px;
+    background: transparent;
+}
+.add-record {
+    width: 115px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 15px;
+    outline: 0px !important;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    transition: .5s;
+}
+.add-record:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.modal{
+    z-index: 999999;
+}
+.view-records {
+    background: rgb(255,255,255,0.8);
+    padding: 10px;
+}
+.view-records ul{
+    list-style: none;
+}
+.view-records ul li {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #212121;
+}
+.view-records ul li span{
+    margin-left: 15px;
+    font-weight: 400;
+    color: #515151;
+}
